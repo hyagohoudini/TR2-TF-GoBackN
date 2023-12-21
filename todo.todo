@@ -1,0 +1,22 @@
+Após a execução/simulação, seu código deve fornecer as seguintes estatísticas:
+    ✔ Vazão (camada de rede, incluindo cabeçalhos) @done(23-12-21 19:30)
+    ✔ Goodput (vazão na camada de aplicação) @done(23-12-21 19:30)
+    ✔ Total de pacotes transmitidos @done(23-12-18 10:19)
+    ✔ Total de retransmissões (para cada tipo de pacote utilizado) @done(23-12-18 10:19)
+    ✔ Total de pacotes corrompidos (para cada tipo de pacote utilizado) @done(23-12-18 07:50)
+    ✔ Tempo de simulação (tempo desde o início do envio até o último pacote enviado) @done(23-12-18 07:01)
+    ✔ O código deve permitir o envio de múltiplas mensagens entre o cliente e servidor. O número de mensagens deve ser definido como argumento de linha do cliente. @done(23-12-18 07:01)
+    ✘ Resolver último ACK @started(23-12-17 16:03) @cancelled(23-12-18 12:03)
+        legado
+    ✔ Servidor devolver as mensagens junto com os ACKs @started(23-12-19 20:44) @done(23-12-19 22:04) @lasted(1h20m)
+
+Relatório:
+    ✔ Uso de gráficos @started(23-12-19 20:44) @done(23-12-19 23:18) @lasted(2h34m9s)
+    ✔ Breve explicação do código @started(23-12-19 20:44) @done(23-12-19 23:18) @lasted(2h34m11s)
+    ✔ Utilizar métricas diferentes @started(23-12-19 20:44) @done(23-12-19 23:18) @lasted(2h34m18s)
+        ✔ Perda @started(23-12-19 20:44) @done(23-12-19 23:18) @lasted(2h34m20s)
+            0, 10%, 20%
+        ✔ Corrupção @started(23-12-19 20:44) @done(23-12-19 23:18) @lasted(2h34m21s)
+            0, 10% e 20%
+        ✔ Reordenação @done(23-12-21 19:31)
+            0, 10% e 20%
