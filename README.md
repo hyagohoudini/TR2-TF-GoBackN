@@ -8,10 +8,8 @@
 ### Clonar repo:
 
 ```
-git clone https://github.com/25edson25/go-back-n.git
+git clone https://github.com/hyagohoudini/TR2-TF-GoBackN.git
 ```
-
-Em seguida mudar para a branch `gobackn`
 
 ## Objetivo
 
